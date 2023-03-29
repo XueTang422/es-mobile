@@ -46,5 +46,8 @@ dependencies {
     def nav_version = "2.5.3"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
-
+    //Enable webpage display
+    implementation "androidx.browser:browser:1.4.0"
+    //Enable Storyblok integration
+    implementation 'com.mikepenz:storyblok-android-sdk:0.3.0'
 }

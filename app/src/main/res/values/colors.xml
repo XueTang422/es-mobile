@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#007aab</color>
     <color name="primaryVariant">#005C81</color>
+    <color name ="smokeWhite">#f3f2f1</color>
 </resources>

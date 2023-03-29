@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">ES Mobile</string>
-    <string name="nav_home_name">EnergySage</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="home_fragment">Hello home fragment</string>
+    <string name="app_name">EnergySage</string>
+    <string name="nav_home_name">EnergySage Home</string>
 </resources>

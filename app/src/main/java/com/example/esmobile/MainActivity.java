@@ -4,22 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
 
 import com.example.esmobile.Fragments.HomeFragment;
-import com.example.esmobile.Fragments.QuotingFragment;
-import com.example.esmobile.Fragments.SettingFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-//import android.databinding.DataBindingUtil;
+import com.example.esmobile.Fragments.CalculatorFragment;
+import com.example.esmobile.Fragments.ProfileFragment;
+import com.example.esmobile.Fragments.SolarLearnFragment;
 import com.example.esmobile.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
@@ -37,18 +31,20 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     replaceFragment(new HomeFragment());
                     break;
-                case R.id.navigation_request_quote:
-                    replaceFragment(new QuotingFragment());
+                case R.id.navigation_solar_learn:
+                    replaceFragment(new SolarLearnFragment());
                     break;
-                case R.id.navigation_setting:
-                    replaceFragment(new SettingFragment());
+                case R.id.navigation_calculator:
+                    replaceFragment(new CalculatorFragment());
                     break;
+                case R.id.navigation_profile:
+                    replaceFragment(new ProfileFragment());
             }
             return true;
         });
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home
-        ).build();
+//        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+//                R.id.navigation_home
+//        ).build();
     }
     private void replaceFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();

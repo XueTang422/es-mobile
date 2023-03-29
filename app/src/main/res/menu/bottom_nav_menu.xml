@@ -5,11 +5,15 @@
         android:icon="@drawable/round_home_24"
         android:title="Home" />
     <item
-        android:id="@+id/navigation_request_quote"
-        android:icon="@drawable/round_request_quote_24"
-        android:title="Quote" />
+        android:id="@+id/navigation_solar_learn"
+        android:icon="@drawable/ic_solar"
+        android:title="Solar Learn" />
     <item
-        android:id="@+id/navigation_setting"
-        android:icon="@drawable/round_settings_24"
-        android:title="Setting" />
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/ic_calculator"
+        android:title="Calculator" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
 </menu>
