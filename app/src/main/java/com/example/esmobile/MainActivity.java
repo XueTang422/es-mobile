@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.ui.AppBarConfiguration;
 
+
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.esmobile.Fragments.HomeFragment;
@@ -13,6 +14,7 @@ import com.example.esmobile.Fragments.CalculatorFragment;
 import com.example.esmobile.Fragments.ProfileFragment;
 import com.example.esmobile.Fragments.SolarLearnFragment;
 import com.example.esmobile.databinding.ActivityMainBinding;
+import com.mikepenz.storyblok.Storyblok;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;

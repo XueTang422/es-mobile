@@ -136,7 +136,6 @@
 
 
     <Button
-        android:id="@+id/button_logOut_setting"
         style="?android:borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
