@@ -54,4 +54,6 @@ dependencies {
     implementation "androidx.browser:browser:1.4.0"
     //Enable Storyblok integration
     implementation 'com.mikepenz:storyblok-android-sdk:0.3.0'
+    //Enable CardView
+    implementation "androidx.cardview:cardview:1.0.0"
 }

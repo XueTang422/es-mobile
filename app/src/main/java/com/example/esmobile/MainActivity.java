@@ -8,6 +8,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.example.esmobile.Fragments.HomeFragment;
 import com.example.esmobile.Fragments.CalculatorFragment;
@@ -44,9 +46,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return true;
         });
-//        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-//                R.id.navigation_home
-//        ).build();
     }
     private void replaceFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
