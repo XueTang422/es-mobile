@@ -1,6 +1,6 @@
 # ES-Mobile: EnergySage Mobile App Prototype
 ## Overview
-ES-Mobile is a prototype developed by Sophia (Xue) Tang ([LinkedIn](https://www.linkedin.com/in/xue-tang/), [Github](https://github.com/XueTang422))  as part of an innovation sprint aimed at enhancing the solar energy research journey for consumers. This mobile application serves as a companion to the EnergySage web platform, offering a tailored, informative, and engaging experience for users exploring solar energy options.
+ES-Mobile is a prototype developed by Xue (Sophia) Tang ([LinkedIn](https://www.linkedin.com/in/xue-tang/), [Github](https://github.com/XueTang422))  as part of an innovation sprint aimed at enhancing the solar energy research journey for consumers. This mobile application serves as a companion to the EnergySage web platform, offering a tailored, informative, and engaging experience for users exploring solar energy options.
 ## Key Features:
 **Full Integration with EnergySage Backend**: Utilizes 100% of the web app's backend, ensuring seamless content management and high data consistency across platforms.
 **Educational Content**: Provides users with high-quality solar energy information to support their research at the early stages.
