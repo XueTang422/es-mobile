@@ -17,8 +17,11 @@ A vibrant loading screen greets users, reinforcing the EnergySage brand while th
 The Home Tab is the gateway to a wealth of energy-related content:
 
 **Explore**: Personalized article recommendations.
+
 **Local**: State-specific energy articles.
+
 **News**: Latest trends in the smart energy industry.
+
 **Saved**: Articles saved by the user for future reference.
 
 #### `Explore` page Preview
