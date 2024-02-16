@@ -38,7 +38,7 @@ Dedicated to enhancing solar education, this tab offers structured learning mate
 <img width="333" alt="Screen Shot 2023-04-06 at 1 54 45 PM" src="https://github.com/XueTang422/es-mobile/assets/89874278/e6d1dd64-1aca-408f-a88d-f2564b0d5b5b">
 
 ## Profile Tab
-Inside the `Profile` Tab, the user can set their preferences such as sharing their areas of interest and/or location to enable a more personalized experience. The users can also write reviews and refer friends, as well as contacting and learning more about EnergySage.
+Allows users to personalize their experience by setting preferences, writing reviews, referring friends, and contacting EnergySage.
 
 #### Preview of `Profile` Tab
 <img width="333" alt="Screen Shot 2023-04-06 at 1 54 49 PM" src="https://github.com/XueTang422/es-mobile/assets/89874278/5299e638-6c33-4ab2-9c91-1f40e250cd1f">
